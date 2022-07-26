@@ -41,6 +41,8 @@ SELECT * FROM tb_boletin WHERE nota_matematica < 7;
 
 UPDATE tb_boletin SET matricula = 20228 WHERE id = 3;
 
+UPDATE tb_boletin SET nota_matematica = 6 WHERE id = 6;
+
 SELECT * FROM tb_boletin;
 
 
